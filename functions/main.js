@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let name1 = document.querySelector('#nm-1531306243545');
     let radio1 = document.querySelectorAll('.t-radio');
     let check1 = document.querySelectorAll('.t-checkbox');
-    myForm.action = 'mail.php'
+    myForm.action = 'main.php'
     button1.addEventListener("click", () => {
 let arr1 = [];
         radio1.forEach(function (el) {
